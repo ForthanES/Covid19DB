@@ -1,0 +1,10 @@
+.back{ 
+    background-image: url(img/covid19.jpg);
+    background-repeat: repeat-x;
+}
+.registro{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    float: left;
+}
