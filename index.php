@@ -29,7 +29,7 @@ if ($indexCtrl->ctrl != "inicio") {
             require_once 'Indice/contacto.php';
             break;
         case 'registro':
-            require_once 'Indice/registro.php';
+            require_once 'Indice/registro.html';
             break;
         case 'salir':
             $controlador->salir();
@@ -40,3 +40,5 @@ if ($indexCtrl->ctrl != "inicio") {
 } else {
     require_once 'Indice/main.php';
 }
+
+require_once 'Indice/footer.html';
